@@ -4,7 +4,8 @@ dependencies = [
     "HTTP",
     "Oxygen",
     "CSV",
-    "DataFrames"
+    "DataFrames",
+    "StructTypes"
 ]
 
 Pkg.add(dependencies)

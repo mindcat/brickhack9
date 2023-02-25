@@ -2,13 +2,17 @@ module StellarAPI
 
 using Oxygen
 using HTTP
+using StructTypes
 
-@get "/" function(req::HTTP.Request)
-    return "home"
-end
+include("Stars.jl")
 
-@get "/greet" function(req::HTTP.Request)
-    return "hello world!"
+StructTypes.StructType(::Type{Stars.Star}) = StructTypes.Struct()
+
+# All the stars in a vector
+stars = Stars.read_data("$(@__DIR__)/data/stars.csv")
+
+@post "/stars" function(req::HTTP.Request)
+    return stars
 end
 
 # start the web server
