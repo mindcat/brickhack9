@@ -25,3 +25,5 @@ ColorIndex: The star's color index (blue magnitude - visual magnitude), where kn
 * **X,Y,Z**: The Cartesian coordinates of the star, in a system based on the equatorial coordinates as seen from Earth. +X is in the direction of the vernal equinox (at epoch 2000), +Z towards the north celestial pole, and +Y in the direction of R.A. 6 hours, declination 0 degrees.
 
 * **VX,VY,VZ**: The Cartesian velocity components of the star, in the same coordinate system described immediately above. They are determined from the proper motion and the radial velocity (when known). The velocity unit is parsecs per year; these are small values (around 10-5 to 10-6), but they enormously simplify calculations using parsecs as base units for celestial mapping.
+
+[Source](https://www.astronexus.com/hyg)
