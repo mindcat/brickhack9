@@ -1,18 +1,22 @@
-import { Canvas } from '@react-three/fiber';
+import { Canvas, useThree, CubeTextureProps } from '@react-three/fiber';
 import './App.css';
 import Star from './components/Star';
-import Box from './components/Box'
+import * as THREE from 'three';
+import { CameraControls, FlyControls, OrbitControls } from '@react-three/drei';
 
-function App() {
+export default function App() {
+
+
   return (
-    <div className="App">
+    <div className="h-screen w-screen">
       <Canvas>
-        <ambientLight />
-        <pointLight position={[10, 10, 10]} />
-        <Star position={[-1, 0, 2]} ></Star>
-      </Canvas>
+      <ambientLight intensity={0.5} />
+      <mesh scale={20}>
+        <torusGeometry args={[1, 0.25, 32, 100]} />
+        <meshStandardMaterial />
+      </mesh>
+      <FlyControls />
+     </Canvas>
     </div>
   );
 }
-
-export default App;
