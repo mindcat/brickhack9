@@ -1,10 +1,16 @@
+import { Canvas } from '@react-three/fiber';
 import './App.css';
-import View from './components/View';
+import Star from './components/Star';
+import Box from './components/Box'
 
 function App() {
   return (
     <div className="App">
-      <View></View>
+      <Canvas>
+        <ambientLight />
+        <pointLight position={[10, 10, 10]} />
+        <Star position={[-1, 0, 2]} ></Star>
+      </Canvas>
     </div>
   );
 }
