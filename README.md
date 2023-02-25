@@ -5,15 +5,15 @@ Shared repository for BrickHack 9 project and submission.
 
 ## Tools
 ### Front-end
-**React.js:** [](https://reactjs.org)
+[**React.js:**](https://reactjs.org)
 
-**Three.js:** [](https://threejs.org)
+[**Three.js:**](https://threejs.org)
 
-**react-three-fiber:** [Ties together react and three.](https://github.com/pmndrs/react-three-fiber)
+[**react-three-fiber:**](https://github.com/pmndrs/react-three-fiber) Ties together react and three.
 
 ### Back-end
-**Julia:** [Fast, cleanly syntaxed scientific and data analysis language ideal as a JIT compiled backend that's fast to write and can handle the complex equations of planetary orbits.](https://julialang.org)
+[**Julia:**](https://julialang.org) Fast, cleanly syntaxed scientific and data analysis language ideal as a JIT compiled backend that's fast to write and can handle the complex equations of planetary orbits.
 
-**Oxygen.jl:** [Simple framework wrapper for HTTP.jl which allows easy and simple REST communication to let Julia be our backend.](https://github.com/ndortega/Oxygen.jl)
+[**Oxygen.jl:**](https://github.com/ndortega/Oxygen.jl) Simple framework wrapper for HTTP.jl which allows easy and simple REST communication to let Julia be our backend.
 
-**:**[]()
+[**:**]()
