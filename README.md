@@ -9,6 +9,8 @@ Shared repository for BrickHack 9 project and submission.
 
 [**Three.js:**](https://threejs.org)
 
+[**Zdog:**](https://zzz.dog/)
+
 [**react-three-fiber:**](https://github.com/pmndrs/react-three-fiber) Ties together react and three.
 
 ### Back-end
@@ -16,4 +18,3 @@ Shared repository for BrickHack 9 project and submission.
 
 [**Oxygen.jl:**](https://github.com/ndortega/Oxygen.jl) Simple framework wrapper for HTTP.jl which allows easy and simple REST communication to let Julia be our backend.
 
-[**:**]()
