@@ -11,7 +11,7 @@ StructTypes.StructType(::Type{Stars.Star}) = StructTypes.Struct()
 # All the stars in a vector
 stars = Stars.read_data("$(@__DIR__)/data/stars.csv")
 
-function star_type (star)
+function star_type(star)
     type = 12
     if star.spectrum == 'M'
         type = 13
