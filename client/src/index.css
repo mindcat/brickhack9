@@ -1,0 +1,73 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #10161a;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+#root {
+  overflow: auto;
+}
+
+#canvas-container {
+  width: 100%;
+  text-align:center;
+}
+
+#canvas {
+  display: block;
+  background: #313;
+  align-self: center;
+  cursor: move;
+}
+
+#zdog-canvas {
+  display: block;
+  background: #313;
+  align-self: center;
+  cursor: move;
+}
+
+
+/* body {
+  position: fixed;
+  overflow: hidden;
+  overscroll-behavior-y: none;
+} */
+
+/* html,
+body {
+  height: 100%;
+}
+body {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+canvas {
+  background-color: #000;
+  box-shadow: 0 0 0 3px #fff;
+  cursor: -webkit-grab;
+  cursor: grab;
+  display: block;
+}
+canvas:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+} */
