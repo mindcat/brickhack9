@@ -20,7 +20,6 @@ function read_data(filename)
         # handle missing proper names
         if isequal(row.ProperName, missing) || row.ProperName == " "
             row.ProperName = ""
-            continue
         end
         # skip ones that have empty spectrum
         if row.Spectrum[1] == ' '
