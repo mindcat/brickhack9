@@ -23,6 +23,13 @@ body,
   overflow: auto;
 }
 
+#canvas {
+  display: block;
+  background: #10161a;
+  cursor: move;
+}
+
+
 body {
   position: fixed;
   overflow: hidden;
